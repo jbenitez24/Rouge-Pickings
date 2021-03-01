@@ -1,0 +1,135 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* LOGO COLOR USED THROUGHOUT THIS WEB PAGE */
+.logo-color {
+    color: #77a466;
+}
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+.half-width {
+    float: left;
+    width: 600px;
+}
+.third-width {
+    float: left;
+    width: 348px;
+}
+/***** HEADER SECTION *****/
+header .half-width {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+
+}
+nav {
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+}
+nav ul li a {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 0 10px 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header img#hero-image {
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+    
+    
+}
+/***** ABOUT SECTION *****/
+#middle h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+#middle p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+/***** BOTTOM SECTION *****/
+#bottom .full-width {
+    border-top: 1px solid #dedbdc;
+}
+#bottom h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    padding-bottom: 23px;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+#section-one{
+    border-right: 1px solid #dedbdc;
+    padding-bottom: 29px;
+    padding-right: 60px;
+}
+#section-one ul {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+}
+#section-one ul li {
+    padding-bottom: 21px;
+}
+#section-two{
+    border-right: 1px solid #dedbdc;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+#section-two p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 21px;
+}
+#section-three{
+    padding-left: 25px;
+}
+#section-three p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+
+/***** FOOTER SECTION *****/
+footer {
+    clear: both;
+}
+footer .full-width {
+    border-top: 1px solid #dedbdc;
+    padding-top: 30px;
+}
+footer h2 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer h2 span {
+    font-family: 'Galada', cursive;
+    font-weight: normal;
+    text-transform: capitalize;
+}
